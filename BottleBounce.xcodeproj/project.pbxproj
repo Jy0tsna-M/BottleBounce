@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72A91B232F2230F00006CDE8 /* BottleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A91B222F2230F00006CDE8 /* BottleImageView.swift */; };
+		72A91B252F2231470006CDE8 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A91B242F2231470006CDE8 /* DetailView.swift */; };
+		72A91B272F22316D0006CDE8 /* DrinkCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A91B262F22316D0006CDE8 /* DrinkCardView.swift */; };
 		72C391EF2ED0D86B00E1B2BF /* BottleBounceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C391EE2ED0D86B00E1B2BF /* BottleBounceApp.swift */; };
 		72C391F12ED0D86B00E1B2BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C391F02ED0D86B00E1B2BF /* ContentView.swift */; };
 		72C391F32ED0D86C00E1B2BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72C391F22ED0D86C00E1B2BF /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		72A91B222F2230F00006CDE8 /* BottleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottleImageView.swift; sourceTree = "<group>"; };
+		72A91B242F2231470006CDE8 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		72A91B262F22316D0006CDE8 /* DrinkCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkCardView.swift; sourceTree = "<group>"; };
 		72C391EB2ED0D86B00E1B2BF /* BottleBounce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BottleBounce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72C391EE2ED0D86B00E1B2BF /* BottleBounceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottleBounceApp.swift; sourceTree = "<group>"; };
 		72C391F02ED0D86B00E1B2BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +59,9 @@
 			children = (
 				72C391EE2ED0D86B00E1B2BF /* BottleBounceApp.swift */,
 				72C391F02ED0D86B00E1B2BF /* ContentView.swift */,
+				72A91B262F22316D0006CDE8 /* DrinkCardView.swift */,
+				72A91B242F2231470006CDE8 /* DetailView.swift */,
+				72A91B222F2230F00006CDE8 /* BottleImageView.swift */,
 				72C391F22ED0D86C00E1B2BF /* Assets.xcassets */,
 				72C391F42ED0D86C00E1B2BF /* Preview Content */,
 			);
@@ -138,7 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				72C391F12ED0D86B00E1B2BF /* ContentView.swift in Sources */,
+				72A91B252F2231470006CDE8 /* DetailView.swift in Sources */,
+				72A91B272F22316D0006CDE8 /* DrinkCardView.swift in Sources */,
 				72C391EF2ED0D86B00E1B2BF /* BottleBounceApp.swift in Sources */,
+				72A91B232F2230F00006CDE8 /* BottleImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
